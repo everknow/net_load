@@ -3,4 +3,6 @@ import Config
 config :load,
        sim: NetSim,
        host: "localhost",
-       port: "8800"
+       port: "8801"
+
+config :logger, level: :info
